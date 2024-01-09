@@ -11,7 +11,7 @@ int main() {
 	arr.push_back(Computer("Samsung", 3.2, 32, true, 27'000));
 
 	for (int i = 0; i < arr.size(); i++) {
-		arr[i].show();
+		if (arr[i].getOZU() > 10) arr[i].show();
 	}
 
 	return 0;
